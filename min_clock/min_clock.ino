@@ -14,6 +14,8 @@ const int stepsPerRevolution = 2048;  // change this to fit the number of steps 
 
 // initialize the stepper library on pins 8 through 11:
 //Stepper myStepper(stepsPerRevolution, 8, 10, 9, 11);
+
+//Reversal rotation
 Stepper myStepper(stepsPerRevolution, 11, 9, 10, 8);
 
 
